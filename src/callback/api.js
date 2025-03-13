@@ -1,3 +1,5 @@
+
+
 export async function getArticles() {
     const res = await fetch(`${process.env.REACT_APP_STRAPI_API}/api/articles`);
     if (!res.ok) {

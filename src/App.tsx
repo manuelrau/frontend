@@ -1,5 +1,5 @@
 import {useEffect, useState} from 'react'
-import { getArticles } from '../src/callback/api.js'
+import { getArticles } from "./callback/api.js"
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
